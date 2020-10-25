@@ -14,7 +14,7 @@ const doujins = doujinscraper.getTop("bakemonogatari");
 console.log(doujins);
 ```
 ### Expected Output
-```json
+```js
 [
   Doujin {
     url: 'https://nhentai.net/g/330290/',
