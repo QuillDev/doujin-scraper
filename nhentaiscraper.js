@@ -3,6 +3,7 @@ const jsdom = require("jsdom");
 const Doujin = require("./Doujin");
 const { JSDOM } = jsdom;
 
+getTop("bakemonogatari").then(r => console.log(r));
 /**
  * Get the top 5 or less results for a given hentai query.
  * @param {String} query the query to search for
