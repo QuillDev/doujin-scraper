@@ -4,14 +4,18 @@
 git clone https://github.com/QuillDev/doujin-scraper.git
 ```
 
-### Usage
+### Example Usage
 ```js
-const doujinscraper = require("doujin-scraper");
+const doujinscraper = require("./doujin-scraper/nhentaiscraper");
 
-//get top 5 doujins for the query "bakemonogatari"
-const doujins = doujinscraper.getTop("bakemonogatari");
+//the method is async so you need to await it
+async function getDoujins(){
+  //get top 5 doujins for the query "bakemonogatari"
+  const doujins = await doujinscraper.getTop("bakemonogatari");
 
-console.log(doujins);
+  console.log(doujins);
+}
+
 ```
 ### Expected Output
 ```js
