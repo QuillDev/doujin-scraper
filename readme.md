@@ -2,6 +2,8 @@
 ## How to install
 ```text
 git clone https://github.com/QuillDev/doujin-scraper.git
+cd doujin-scraper
+npm install
 ```
 
 ### Example Usage
