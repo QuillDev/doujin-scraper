@@ -1,0 +1,13 @@
+{
+  "name": "nhentaiscraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "got": "^11.8.0",
+    "jsdom": "^16.4.0"
+  }
+}
